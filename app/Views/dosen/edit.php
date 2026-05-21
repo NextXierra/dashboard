@@ -6,9 +6,7 @@
     <div class="col-md-8">
         <div class="retro-badge-header" style="background-color: #94a8e7; color: #141414;">Data Akademik</div>
         <h1 class="display-5 mb-2" style="font-size: 2.8rem; letter-spacing: -1px;">EDIT DOSEN</h1>
-        <p class="lead text-dark font-weight-bold" style="font-size: 1.15rem; font-weight: 700;">
-            Memperbarui data dosen <span class="text-decoration-underline"><?= esc($dosen['Nama_Dosen']) ?></span> di sistem.
-        </p>
+
     </div>
     <div class="col-md-4 text-md-end mt-3 mt-md-0">
         <a href="<?= base_url('dosen') ?>" class="btn btn-neo px-4 py-2" style="background-color: #94a8e7;">

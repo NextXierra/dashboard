@@ -6,9 +6,7 @@
     <div class="col-md-8">
         <div class="retro-badge-header" style="background-color: #f7c945; color: #141414;">Data Akademik</div>
         <h1 class="display-5 mb-2" style="font-size: 2.8rem; letter-spacing: -1px;">TAMBAH MATA KULIAH</h1>
-        <p class="lead text-dark font-weight-bold" style="font-size: 1.15rem; font-weight: 700;">
-            Silakan masukkan data mata kuliah baru ke dalam sistem basis data.
-        </p>
+
     </div>
     <div class="col-md-4 text-md-end mt-3 mt-md-0">
         <a href="<?= base_url('matakuliah') ?>" class="btn btn-neo px-4 py-2" style="background-color: #94a8e7;">
