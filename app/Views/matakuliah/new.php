@@ -35,7 +35,7 @@
                 <div class="neo-form-group">
                     <label for="Kode_MK">Kode Mata Kuliah</label>
                     <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark" id="Kode_MK" name="Kode_MK" value="<?= old('Kode_MK') ?>" placeholder="Contoh: KOM123" required maxlength="20">
-                    <small class="fw-bold text-muted mt-1 d-block">Kode MK maksimal 20 karakter unik.</small>
+
                 </div>
                 
                 <div class="neo-form-group">

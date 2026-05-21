@@ -35,7 +35,7 @@
                 <div class="neo-form-group">
                     <label for="Nip">NIP (Nomor Induk Pegawai)</label>
                     <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark" id="Nip" name="Nip" value="<?= old('Nip') ?>" placeholder="Contoh: 198509120011" required maxlength="20">
-                    <small class="fw-bold text-muted mt-1 d-block">NIP berupa kode identitas dosen unik (maksimal 20 karakter).</small>
+
                 </div>
                 
                 <div class="neo-form-group">
@@ -48,14 +48,14 @@
                         <div class="neo-form-group">
                             <label for="Nidn">NIDN (Nomor Induk Dosen Nasional)</label>
                             <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark" id="Nidn" name="Nidn" value="<?= old('Nidn') ?>" placeholder="Contoh: 0016087402" maxlength="20">
-                            <small class="fw-bold text-muted mt-1 d-block">Opsional (boleh dikosongkan).</small>
+
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="neo-form-group">
                             <label for="Nuptk">NUPTK</label>
                             <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark" id="Nuptk" name="Nuptk" value="<?= old('Nuptk') ?>" placeholder="Contoh: 9546775676230182" maxlength="20">
-                            <small class="fw-bold text-muted mt-1 d-block">Opsional (boleh dikosongkan).</small>
+
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                 <div class="neo-form-group">
                     <label for="Prodi">Program Studi (Prodi)</label>
                     <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark" id="Prodi" name="Prodi" value="<?= old('Prodi') ?>" placeholder="Contoh: BIOLOGI" maxlength="50">
-                    <small class="fw-bold text-muted mt-1 d-block">Opsional (boleh dikosongkan).</small>
+
                 </div>
 
                 <div class="row">
@@ -71,14 +71,14 @@
                         <div class="neo-form-group">
                             <label for="Universitas">Universitas</label>
                             <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark" id="Universitas" name="Universitas" value="<?= old('Universitas') ?>" placeholder="Contoh: UNIVERSITAS LAMBUNG MANGKURAT" maxlength="100">
-                            <small class="fw-bold text-muted mt-1 d-block">Opsional (boleh dikosongkan).</small>
+
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="neo-form-group">
                             <label for="Singkatan_PT">Singkatan PT</label>
                             <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark" id="Singkatan_PT" name="Singkatan_PT" value="<?= old('Singkatan_PT') ?>" placeholder="Contoh: ULM" maxlength="20">
-                            <small class="fw-bold text-muted mt-1 d-block">Opsional (boleh dikosongkan).</small>
+
                         </div>
                     </div>
                 </div>

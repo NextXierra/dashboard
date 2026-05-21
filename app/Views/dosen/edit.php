@@ -35,7 +35,7 @@
                 <div class="neo-form-group">
                     <label for="Nip">NIP (Nomor Induk Pegawai)</label>
                     <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark bg-light" id="Nip" name="Nip" value="<?= esc($dosen['Nip']) ?>" readonly style="cursor: not-allowed;">
-                    <small class="fw-bold text-danger mt-1 d-block"><i class="fa-solid fa-triangle-exclamation"></i> NIP adalah kunci utama tabel and tidak dapat diubah.</small>
+
                 </div>
                 
                 <div class="neo-form-group">
@@ -48,14 +48,14 @@
                         <div class="neo-form-group">
                             <label for="Nidn">NIDN (Nomor Induk Dosen Nasional)</label>
                             <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark" id="Nidn" name="Nidn" value="<?= old('Nidn', $dosen['Nidn'] ?? '') ?>" placeholder="Contoh: 0016087402" maxlength="20">
-                            <small class="fw-bold text-muted mt-1 d-block">Opsional (boleh dikosongkan).</small>
+
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="neo-form-group">
                             <label for="Nuptk">NUPTK</label>
                             <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark" id="Nuptk" name="Nuptk" value="<?= old('Nuptk', $dosen['Nuptk'] ?? '') ?>" placeholder="Contoh: 9546775676230182" maxlength="20">
-                            <small class="fw-bold text-muted mt-1 d-block">Opsional (boleh dikosongkan).</small>
+
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                 <div class="neo-form-group">
                     <label for="Prodi">Program Studi (Prodi)</label>
                     <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark" id="Prodi" name="Prodi" value="<?= old('Prodi', $dosen['Prodi'] ?? '') ?>" placeholder="Contoh: BIOLOGI" maxlength="50">
-                    <small class="fw-bold text-muted mt-1 d-block">Opsional (boleh dikosongkan).</small>
+
                 </div>
 
                 <div class="row">
@@ -71,14 +71,14 @@
                         <div class="neo-form-group">
                             <label for="Universitas">Universitas</label>
                             <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark" id="Universitas" name="Universitas" value="<?= old('Universitas', $dosen['Universitas'] ?? '') ?>" placeholder="Contoh: UNIVERSITAS LAMBUNG MANGKURAT" maxlength="100">
-                            <small class="fw-bold text-muted mt-1 d-block">Opsional (boleh dikosongkan).</small>
+
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="neo-form-group">
                             <label for="Singkatan_PT">Singkatan PT</label>
                             <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark" id="Singkatan_PT" name="Singkatan_PT" value="<?= old('Singkatan_PT', $dosen['Singkatan_PT'] ?? '') ?>" placeholder="Contoh: ULM" maxlength="20">
-                            <small class="fw-bold text-muted mt-1 d-block">Opsional (boleh dikosongkan).</small>
+
                         </div>
                     </div>
                 </div>

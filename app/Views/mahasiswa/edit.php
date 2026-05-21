@@ -35,7 +35,7 @@
                 <div class="neo-form-group">
                     <label for="Nim">NIM (Nomor Induk Mahasiswa)</label>
                     <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark bg-light" id="Nim" name="Nim" value="<?= esc($mahasiswa['Nim']) ?>" readonly style="cursor: not-allowed;">
-                    <small class="fw-bold text-danger mt-1 d-block"><i class="fa-solid fa-triangle-exclamation"></i> NIM adalah kunci utama tabel dan tidak dapat diubah.</small>
+
                 </div>
                 
                 <div class="neo-form-group">
@@ -63,7 +63,7 @@
                         <div class="neo-form-group">
                             <label for="Tgl_Lahir">Tanggal Lahir</label>
                             <input type="date" class="form-control form-control-lg text-dark fw-bold border-3 border-dark" id="Tgl_Lahir" name="Tgl_Lahir" value="<?= old('Tgl_Lahir', $mahasiswa['Tgl_Lahir']) ?>">
-                            <small class="fw-bold text-muted mt-1 d-block">Opsional (boleh dikosongkan).</small>
+
                         </div>
                     </div>
                 </div>
@@ -79,13 +79,13 @@
                 <div class="neo-form-group">
                     <label for="Jalur_Kelulusan">Jalur Kelulusan</label>
                     <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark" id="Jalur_Kelulusan" name="Jalur_Kelulusan" value="<?= old('Jalur_Kelulusan', $mahasiswa['Jalur_Kelulusan'] ?? '') ?>" placeholder="Contoh: SNBP, SNBT, Mandiri" maxlength="30">
-                    <small class="fw-bold text-muted mt-1 d-block">Opsional (boleh dikosongkan).</small>
+
                 </div>
 
                 <div class="neo-form-group">
                     <label for="Alamat">Alamat Tempat Tinggal</label>
                     <textarea class="form-control text-dark fw-bold border-3 border-dark" id="Alamat" name="Alamat" rows="3" maxlength="100"><?= old('Alamat', $mahasiswa['Alamat']) ?></textarea>
-                    <small class="fw-bold text-muted mt-1 d-block">Opsional (boleh dikosongkan).</small>
+
                 </div>
 
                 <div class="d-grid mt-4">

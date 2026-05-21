@@ -35,7 +35,7 @@
                 <div class="neo-form-group">
                     <label for="Kode_MK">Kode Mata Kuliah</label>
                     <input type="text" class="form-control form-control-lg text-dark fw-bold border-3 border-dark bg-light" id="Kode_MK" name="Kode_MK" value="<?= esc($matakuliah['Kode_MK']) ?>" readonly style="cursor: not-allowed;">
-                    <small class="fw-bold text-danger mt-1 d-block"><i class="fa-solid fa-triangle-exclamation"></i> Kode MK adalah kunci utama tabel dan tidak dapat diubah.</small>
+
                 </div>
                 
                 <div class="neo-form-group">
