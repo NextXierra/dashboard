@@ -13,22 +13,14 @@
 <?php endif; ?>
 
 <div class="row align-items-center mb-5">
-    <div class="col-md-8">
+    <div class="col-md-12">
         <div class="retro-badge-header">Ringkasan Sistem</div>
         <h1 class="display-5 mb-2" style="font-size: 2.8rem; letter-spacing: -1px;">DASHBOARD AKADEMIK</h1>
-        <p class="lead text-dark font-weight-bold" style="font-size: 1.15rem; font-weight: 700;">
-            Selamat datang kembali di Portal Administratif. Berikut status data akademik terkini.
-        </p>
-    </div>
-    <div class="col-md-4 text-md-end mt-3 mt-md-0">
-        <a href="<?= base_url('perkuliahan') ?>" class="btn btn-neo px-4 py-2" style="background-color: #94a8e7;">
-            <i class="fa-solid fa-graduation-cap me-2"></i> Lihat Perkuliahan
-        </a>
     </div>
 </div>
 
 <div class="row mb-4">
-    <div class="col-xl-3 col-sm-6 mb-4">
+    <div class="col-xl-4 col-sm-6 mb-4">
         <div class="neo-card h-100" style="background-color: #94a8e7;">
             <div class="d-flex justify-content-between align-items-start">
                 <div>
@@ -79,22 +71,7 @@
         </div>
     </div>
 
-    <div class="col-xl-3 col-sm-6 mb-4">
-        <div class="neo-card h-100" style="background-color: #aa57e2; color: #fff;">
-            <div class="d-flex justify-content-between align-items-start">
-                <div>
-                    <span class="fw-bold text-uppercase text-white" style="font-size: 0.9rem;">Kelas Terdaftar</span>
-                    <h3 class="display-6 my-2 fw-black text-white" style="font-size: 2.2rem; font-family: 'Syne', sans-serif;"><?= number_format($stats['perkuliahan']['total']) ?></h3>
-                </div>
-                <div class="bg-white border border-dark p-2 rounded shadow-sm">
-                    <i class="fa-solid fa-file-signature fa-xl text-dark"></i>
-                </div>
-            </div>
-            <div class="mt-3">
-                <span class="text-white fw-bold" style="font-size: 0.85rem;">KRS Mahasiswa</span>
-            </div>
-        </div>
-    </div>
+    <!-- Kelas Terdaftar card hidden -->
 </div>
 
 <?= $this->endSection() ?>

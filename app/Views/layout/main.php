@@ -53,12 +53,7 @@
                     <span>Mata Kuliah</span>
                 </a>
             </li>
-            <li class="nav-item-custom <?= ($uri->getTotalSegments() > 0 && $uri->getSegment(1) == 'perkuliahan') ? 'active' : '' ?>">
-                <a href="<?= base_url('perkuliahan') ?>">
-                    <i class="fa-solid fa-file-signature"></i>
-                    <span>Perkuliahan</span>
-                </a>
-            </li>
+            <!-- Perkuliahan menu hidden -->
         </ul>
         
         <div class="mt-5 p-3 text-center border-top border-dark">
